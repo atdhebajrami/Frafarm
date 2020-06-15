@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;800&display=swap');
+
+.BlersiProductsBox {
+    width: 100%;
+    margin-top: 5vh;
+    margin-bottom: 20vh;
+}
+
+.BlersiProductsInputBox {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.BlersiProductsTitle {
+    width: 100%;
+    text-align: center;
+    color: #7FCC03;
+    font-size: 2.5vh;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 5vh;
+}
+
+.BlersiProductsProductName {
+    width: 100%;
+    height: 5vh;
+    padding-left: 3%;
+    font-size: 1.5vh;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5px;
+    border: 2px solid #7FCC03;
+    margin-bottom: 2vh;
+}
+
+.BlersiProductsLocationName {
+    width: 100%;
+    height: 5vh;
+    padding-left: 3%;
+    font-size: 1.5vh;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5px;
+    border: 2px solid #7FCC03;
+    margin-bottom: 2vh;
+}
+
+.BlersiProductsCheapExpeBox {
+    width: 100%;
+    height: 5vh;
+    margin-bottom: 2vh;
+}
+
+.NewestButtonUnSelected {
+    background-color: white;
+    width: 47.5%;
+    margin-right: 5%;
+    height: 100%;
+    border: 2px solid #7FCC03;
+    border-radius: 5px;
+    font-size: 1.5vh;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: grey;
+}
+
+.OldestButtonUnSelected {
+    background-color: white;
+    width: 47.5%;
+    height: 100%;
+    border: 2px solid #7FCC03;
+    border-radius: 5px;
+    font-size: 1.5vh;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: grey;
+}
+
+.NewestButtonSelected {
+    background-color: white;
+    width: 47.5%;
+    margin-right: 5%;
+    height: 100%;
+    border: 2px solid #7FCC03;
+    border-radius: 5px;
+    font-size: 1.5vh;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: #7FCC03;
+}
+
+.OldestButtonSelected {
+    background-color: white;
+    width: 47.5%;
+    height: 100%;
+    border: 2px solid #7FCC03;
+    border-radius: 5px;
+    font-size: 1.5vh;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: #7FCC03;
+}
+
+.BlersiProductsSearchButton {
+    background-color: white;
+    position: relative;
+    width: 100%;
+    height: 5vh;
+    font-size: 2vh;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: #7FCC03;
+    border-radius: 5px;
+    border: 2px solid #7FCC03;
+    margin-bottom: 5vh;
+}
+
+.BlersiProductsDisplayBox {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    min-height: 10vh;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 700px){
+    .BlersiProductsInputBox {
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+        max-width: 350px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .BlersiProductsDisplayBox {
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+        max-width: 550px;
+        min-height: 10vh;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 1100px){
+    .BlersiProductsInputBox {
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+        max-width: 250px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .BlersiProductsDisplayBox {
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        max-width: 350px;
+        min-height: 10vh;
+        display: flex;
+        flex-direction: column;
+    }
+}

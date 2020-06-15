@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;800&display=swap');
+
+.FermeriNewProductBox {
+    width: 100%;
+    min-height: 40vh;
+    margin-top: 5vh;
+    margin-bottom: 20vh;
+}
+
+.FermeriNewProductErrorBox {
+    display: block;
+    width: 100%;
+    height: 8vh;
+    background-color: red;
+    border-radius: 5px;
+    margin-bottom: 2vh;
+}
+
+.FermeriNewProductErrorBoxHide {
+    display: none;
+}
+
+.FermeriNewProductErrorText {
+    width: 100%;
+    height: 100%;
+    color: white;
+    text-align: center;
+    line-height: 8vh;
+    font-size: 1.5vh;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+.FermeriNewProductErrorButton {
+    position: absolute;
+    top: 2%;
+    right: 2%;
+    width: 3%;
+    height: 3%;
+    object-fit: contain;
+}
+
+.FermeriNewProductSuccessBox {
+    display: block;
+    width: 100%;
+    height: 8vh;
+    background-color: #7FCC03;
+    border-radius: 5px;
+    margin-bottom: 2vh;
+}
+
+.FermeriNewProductSuccessBoxHide {
+    display: none;
+}
+
+.FermeriNewProductSuccessText {
+    width: 100%;
+    height: 100%;
+    color: white;
+    text-align: center;
+    line-height: 8vh;
+    font-size: 1.5vh;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+.FermeriNewProductSuccessButton {
+    position: absolute;
+    top: 2%;
+    right: 2%;
+    width: 3%;
+    height: 3%;
+    object-fit: contain;
+}
+
+.FermeriNewProductInputBox {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    min-height: 10vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.FermeriNewProductPublicDataBox {
+    background-color: #7FCC03;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 10vh;
+    border-radius: 10px;
+    margin-bottom: 7vh;
+}
+
+.FermeriNewProductAddImageContainer {
+    background-color: white;
+    position: relative;
+    top: 5%;
+    left: 1.5%;
+    height: 90%;
+    width: 30%;
+    border-radius: 10px;
+}
+
+.FermeriNewProductImage {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.FermeriNewProductTitleInput {
+    width: 100%;
+    height: 5vh;
+    padding-left: 3%;
+    font-size: 1.5vh;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5px;
+    border: 2px solid #7FCC03;
+    margin-bottom: 2vh;
+}
+
+.FermeriNewProductPriceInput {
+    width: 100%;
+    height: 5vh;
+    padding-left: 3%;
+    font-size: 1.5vh;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5px;
+    border: 2px solid #7FCC03;
+    margin-bottom: 2vh;
+}
+
+.FermeriNewProductLocationInput {
+    width: 100%;
+    height: 5vh;
+    padding-left: 3%;
+    font-size: 1.5vh;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5px;
+    border: 2px solid #7FCC03;
+    margin-bottom: 2vh;
+}
+
+.FermeriNewProductDescriptionInput {
+    width: 100%;
+    height: 20vh;
+    padding-top: 2%;
+    padding-left: 3%;
+    font-size: 1.5vh;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5px;
+    border: 2px solid #7FCC03;
+    margin-bottom: 2vh;
+}
+
+.FermeriNewProductTitleInputRED {
+    width: 100%;
+    height: 5vh;
+    padding-left: 3%;
+    font-size: 1.5vh;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5px;
+    border: 2px solid red;
+    margin-bottom: 2vh;
+}
+
+.FermeriNewProductPriceInputRED {
+    width: 100%;
+    height: 5vh;
+    padding-left: 3%;
+    font-size: 1.5vh;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5px;
+    border: 2px solid red;
+    margin-bottom: 2vh;
+}
+
+.FermeriNewProductLocationInputRED {
+    width: 100%;
+    height: 5vh;
+    padding-left: 3%;
+    font-size: 1.5vh;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5px;
+    border: 2px solid red;
+    margin-bottom: 2vh;
+}
+
+.FermeriNewProductDescriptionInputRED {
+    width: 100%;
+    height: 20vh;
+    padding-top: 2%;
+    padding-left: 3%;
+    font-size: 1.5vh;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5px;
+    border: 2px solid red;
+    margin-bottom: 2vh;
+}
+
+
+.FermeriNewProductButton {
+    background-color: white;
+    width: 100%;
+    height: 5vh;
+    font-size: 2vh;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: #7FCC03;
+    border-radius: 5px;
+    border: 2px solid #7FCC03;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 700px){
+    .FermeriNewProductInputBox {
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+        max-width: 550px;
+        min-height: 10vh;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 1100px){
+    .FermeriNewProductInputBox {
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        max-width: 350px;
+        min-height: 10vh;
+        display: flex;
+        flex-direction: column;
+    }
+}

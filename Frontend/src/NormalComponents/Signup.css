@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;800&display=swap');
+
+.SignupBox {
+    width: 100%;
+    margin-top: 5vh;
+    margin-bottom: 20vh;
+}
+
+.ErrorBox {
+    display: block;
+    width: 100%;
+    height: 8vh;
+    background-color: red;
+    border-radius: 5px;
+    margin-bottom: 2vh;
+}
+
+.ErrorBoxHide {
+    display: none;
+}
+
+.ErrorText {
+    width: 100%;
+    height: 100%;
+    color: white;
+    text-align: center;
+    line-height: 8vh;
+    font-size: 1.5vh;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+.ErrorButton {
+    position: absolute;
+    top: 2%;
+    right: 2%;
+    width: 4%;
+    height: 4%;
+    object-fit: contain;
+}
+
+.SignupInputBox {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.SignupText {
+    width: 100%;
+    text-align: center;
+    color: #7FCC03;
+    font-size: 3vh;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 2vh;
+}
+
+.SignupUsername {
+    width: 100%;
+    height: 5vh;
+    padding-left: 3%;
+    font-size: 1.5vh;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5px;
+    border: 2px solid #7FCC03;
+    margin-bottom: 2vh;
+}
+
+.SignupUsernameRED {
+    width: 100%;
+    height: 5vh;
+    padding-left: 3%;
+    font-size: 1.5vh;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5px;
+    border: 2px solid red;
+    margin-bottom: 2vh;
+}
+
+.SignupEmail {
+    width: 100%;
+    height: 5vh;
+    padding-left: 3%;
+    font-size: 1.5vh;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5px;
+    border: 2px solid #7FCC03;
+    margin-bottom: 2vh;
+}
+
+.SignupEmailRED {
+    width: 100%;
+    height: 5vh;
+    padding-left: 3%;
+    font-size: 1.5vh;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5px;
+    border: 2px solid red;
+    margin-bottom: 2vh;
+}
+
+.SignupPassword {
+    width: 100%;
+    height: 5vh;
+    padding-left: 3%;
+    font-size: 1.5vh;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5px;
+    border: 2px solid #7FCC03;
+    margin-bottom: 2vh;
+}
+
+.SignupPasswordRED {
+    width: 100%;
+    height: 5vh;
+    padding-left: 3%;
+    font-size: 1.5vh;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5px;
+    border: 2px solid red;
+    margin-bottom: 2vh;
+}
+
+.SignupTelNumber {
+    width: 100%;
+    height: 5vh;
+    padding-left: 3%;
+    font-size: 1.5vh;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5px;
+    border: 2px solid #7FCC03;
+    margin-bottom: 2vh;
+}
+
+.SignupTelNumberRED {
+    width: 100%;
+    height: 5vh;
+    padding-left: 3%;
+    font-size: 1.5vh;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5px;
+    border: 2px solid red;
+    margin-bottom: 2vh;
+}
+
+.ClientFarmerBox {
+    width: 100%;
+    height: 5vh;
+    margin-bottom: 2vh;
+}
+
+.ClientButtonUnSelected {
+    background-color: white;
+    width: 47.5%;
+    margin-right: 5%;
+    height: 100%;
+    border: 2px solid #7FCC03;
+    border-radius: 5px;
+    font-size: 1.5vh;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: grey;
+}
+
+.FarmerButtonUnSelected {
+    background-color: white;
+    width: 47.5%;
+    height: 100%;
+    border: 2px solid #7FCC03;
+    border-radius: 5px;
+    font-size: 1.5vh;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: grey;
+}
+
+.ClientButtonUnSelectedRED {
+    background-color: white;
+    width: 47.5%;
+    margin-right: 5%;
+    height: 100%;
+    border: 2px solid red;
+    border-radius: 5px;
+    font-size: 1.5vh;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: grey;
+}
+
+.FarmerButtonUnSelectedRED {
+    background-color: white;
+    width: 47.5%;
+    height: 100%;
+    border: 2px solid red;
+    border-radius: 5px;
+    font-size: 1.5vh;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: grey;
+}
+
+.ClientButtonSelected {
+    background-color: white;
+    width: 47.5%;
+    margin-right: 5%;
+    height: 100%;
+    border: 2px solid #7FCC03;
+    border-radius: 5px;
+    font-size: 1.5vh;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: #7FCC03;
+}
+
+.FarmerButtonSelected {
+    background-color: white;
+    width: 47.5%;
+    height: 100%;
+    border: 2px solid #7FCC03;
+    border-radius: 5px;
+    font-size: 1.5vh;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: #7FCC03;
+}
+
+.SignupButton {
+    background-color: white;
+    position: relative;
+    left: 30%;
+    width: 40%;
+    height: 5vh;
+    font-size: 2vh;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: #7FCC03;
+    border-radius: 5px;
+    border: 2px solid #7FCC03;
+    margin-bottom: 2vh;
+}
+
+.NotaMember {
+    color: #7FCC03;
+    width: 100%;
+    text-align: center;
+    font-size: 1.5vh;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+@media screen and (min-width: 700px){
+    .SignupInputBox {
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+        max-width: 350px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 1100px){
+    .SignupInputBox {
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+        max-width: 250px;
+        display: flex;
+        flex-direction: column;
+    }
+}
